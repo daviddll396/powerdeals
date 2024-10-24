@@ -1,5 +1,5 @@
 import "./buy.css";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import axios from "axios";
 import Fade from "react-reveal/Fade";
 
@@ -41,6 +41,8 @@ function App() {
 
   const paymentRef = generateRef();
 
+  const [amount, setAmount] = useState(0);
+
   const testPay = () => {
     const Pay = new window.ItexPayNS.ItexPay({
       api_key:
@@ -49,7 +51,7 @@ function App() {
       last_name: "Fagbenja",
       phone_number: "2347064758014",
       email: "daviddll396@gmail.com",
-      amount: 10,
+      amount: amount,
       // redirecturl: "http://yourredirecturl.com",
       currency: "NGN",
       reference: paymentRef,
@@ -135,7 +137,12 @@ function App() {
                 <label htmlFor="amount">
                   Amount <span className="required">*</span>
                 </label>
-                <input type="number" name="amount" id="amount" />
+                <input
+                  type="number"
+                  name="amount"
+                  id="amount"
+                  onChange={(e) => setAmount(e.target.value)}
+                />
               </div>
               <div className="form-field">
                 <label htmlFor="email">
