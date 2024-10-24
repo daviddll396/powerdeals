@@ -1,6 +1,7 @@
 import React from "react";
 import "./navbar.css";
 import Fade from "react-reveal/Fade";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -9,13 +10,15 @@ const Navbar = () => {
         {" "}
         <div className="nav-logo">
           <Fade delay={350}>
-            <img src="/public/images/powerdeals-logo.png" alt="" />
+            <Link to="/">
+              <img src="/public/images/powerdeals-logo.png" alt="" />
+            </Link>
           </Fade>
         </div>
         <div className="nav-links">
           <Fade delay={400}>
             {" "}
-            <a href="#">Buy Electricity</a>
+            <Link to="/buy">Buy Electricity</Link>
           </Fade>
           <Fade delay={450}>
             {" "}

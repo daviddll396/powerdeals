@@ -60,10 +60,10 @@ const Footer = () => {
                 {" "}
                 <span>Buy Data</span>
               </div>
-              <didiv className="comingsoon">
+              <div className="comingsoon">
                 {" "}
                 <span>Recharge TV</span>
-              </didiv>
+              </div>
             </div>
             <div className="footer-section">
               <div className="footer-header">Legal</div>
