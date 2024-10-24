@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="nav-logo">
           <Fade delay={350}>
             <Link to="/">
-              <img src="/public/images/powerdeals-logo.png" alt="" />
+              <img src="/images/powerdeals-logo.png" alt="" />
             </Link>
           </Fade>
         </div>

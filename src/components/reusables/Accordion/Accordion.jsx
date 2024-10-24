@@ -13,7 +13,7 @@ const Accordion = ({ header, text }) => {
       <div className="accordion-header-flex" onClick={toggle}>
         <div className="accordion-header">{header}</div>
         <img
-          src="/public/images/arrow-down.svg"
+          src="/images/arrow-down.svg"
           alt=""
           className={
             isOpen ? "upArrow accordion-arrow" : "downArrow accordion-arrow"
