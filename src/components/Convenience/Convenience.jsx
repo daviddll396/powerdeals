@@ -152,14 +152,14 @@ const Convenience = () => {
           {multimeter && (
             <div className="virtualAccountsimg">
               <Fade duration={300}>
-                <img src="/public/images/multi-meter.svg" />
+                <img src="/images/multi-meter.svg" />
               </Fade>
             </div>
           )}
           {payforme && (
             <div className="organisationimg">
               <Fade duration={300}>
-                <img src="/public/images/payforme.svg" />
+                <img src="/images/payforme.svg" />
               </Fade>
             </div>
           )}
@@ -167,7 +167,7 @@ const Convenience = () => {
           {smartrecharge && (
             <div className="payoutsimg">
               <Fade duration={300}>
-                <img src="/public/images/recharge.svg" />
+                <img src="/images/recharge.svg" />
               </Fade>
             </div>
           )}

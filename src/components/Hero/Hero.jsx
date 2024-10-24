@@ -39,7 +39,7 @@ const Hero = () => {
         </Fade>{" "}
         <div className="hero-dash">
           <Fade delay={350}>
-            <img src="/public/images/powerdeals-dash.png" alt="" />{" "}
+            <img src="/images/powerdeals-dash.png" alt="" />{" "}
           </Fade>
         </div>
         <div className="hero-providers-section">
@@ -52,25 +52,25 @@ const Hero = () => {
 
           <div className="hero-providers">
             <div className="provider-card">
-              <img src="/public/images/aedc.png" alt="" />
+              <img src="/images/aedc.png" alt="" />
             </div>
             <div className="provider-card">
-              <img src="/public/images/eedc.png" alt="" />
+              <img src="/images/eedc.png" alt="" />
             </div>
             <div className="provider-card">
-              <img src="/public/images/ie.png" alt="" />
+              <img src="/images/ie.png" alt="" />
             </div>
             <div className="provider-card">
-              <img src="/public/images/kedco.png" alt="" />
+              <img src="/images/kedco.png" alt="" />
             </div>
             <div className="provider-card">
-              <img src="/public/images/phedc.png" alt="" />
+              <img src="/images/phedc.png" alt="" />
             </div>
             <div className="provider-card">
-              <img src="/public/images/ekedc.png" alt="" />
+              <img src="/images/ekedc.png" alt="" />
             </div>
             <div className="provider-card">
-              <img src="/public/images/ibedc.png" alt="" />
+              <img src="/images/ibedc.png" alt="" />
             </div>
           </div>
         </div>
