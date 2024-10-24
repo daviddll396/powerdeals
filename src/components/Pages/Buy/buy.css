@@ -1,0 +1,90 @@
+.container {
+  background-color: white;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 720px;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+.heading {
+  font-weight: 500;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  color: #333;
+}
+
+.icon svg {
+  display: inline;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+.form-group {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 520px) {
+  .form-group {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 13px;
+  font-weight: 400;
+  color: #666;
+}
+
+.required {
+  color: red;
+  font-weight: 500;
+}
+
+input {
+  margin-top: 0.625rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid rgba(70, 96, 114, 0.5);
+  border-radius: 6px;
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.75);
+  outline: none;
+}
+
+input:focus {
+  border-color: #dc6c36;
+}
+
+.dropdown {
+  margin-top: 0.625rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid rgba(70, 96, 114, 0.5);
+  border-radius: 6px;
+  background-color: transparent;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.submit-button {
+  margin-top: 2rem;
+  padding: 0.75rem 1rem;
+  background-color: #dc6c36;
+  color: white;
+  border-radius: 6px;
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
