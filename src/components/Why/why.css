@@ -1,0 +1,49 @@
+.flex-top,
+.flex-mid,
+.flex-bot {
+  display: flex;
+  margin: 0 auto;
+  width: 1000px;
+  justify-content: space-between;
+}
+.flex-mid,
+.flex-bot {
+  margin-top: 30px;
+}
+
+.why-container {
+  margin-top: 100px;
+}
+.why-header {
+  font-family: "Archivo", sans-serif;
+  text-align: left;
+  font-size: 32px;
+  font-weight: 500;
+}
+.why-box {
+  width: 400px;
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+}
+.why-hash {
+  width: 20px;
+  height: 20px;
+  font-weight: 500;
+  margin-top: 5px;
+  color: var(--primary);
+}
+.why-text {
+  width: 370px;
+}
+.why-main {
+  font-size: 20px;
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.why-sub {
+  font-size: 14px;
+  color: var(--black);
+  margin-top: 6px;
+}

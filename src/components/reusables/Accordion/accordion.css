@@ -1,0 +1,51 @@
+.accordion-header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 758px;
+  height: 54px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 15px 15px 15px 31px;
+
+  font-family: "Archivo", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+.accordion-text {
+  font-family: "Poppins", sans-serif;
+  opacity: 0.5;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  width: 744px;
+  transition: all 0.3s ease;
+}
+
+.openaccordion {
+  max-height: 200px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.closedaccordion {
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.downArrow {
+  transform: rotate(0deg);
+  transition: all 0.3s ease;
+  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%)
+    contrast(100%);
+}
+
+.upArrow {
+  transform: rotate(-180deg);
+  transition: all 0.3s ease;
+  filter: invert(45%) sepia(90%) saturate(746%) hue-rotate(345deg)
+    brightness(100%) contrast(97%);
+}

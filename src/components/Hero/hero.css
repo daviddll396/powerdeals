@@ -1,0 +1,159 @@
+.hero-container {
+  margin-top: 100px;
+}
+
+.hero-maintext {
+  font-size: 42px;
+  font-weight: 600;
+  color: #121212;
+  text-align: center;
+  font-family: "Archivo", sans-serif;
+}
+.hero-subtext {
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  color: var(--grey);
+  width: 950px;
+  margin: 20px auto 0px auto;
+}
+
+.input-cta-flex {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.hero-cta {
+  background: var(--primary);
+  border: 1px solid var(--primary);
+  font-weight: 500;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: all 0.3s ease;
+}
+.hero-cta:hover {
+  color: var(--primary);
+  background: #fff;
+
+  transition: all 0.3s ease;
+}
+
+.hero-input {
+  border: 1px solid var(--primary);
+  border-radius: 10px;
+  width: 455px;
+  height: 44px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-self: center;
+  padding: 11px 12px;
+  position: relative;
+  /* box-shadow: 0px 2px 4px 0px #0000001f; */
+}
+.hero-input input {
+  border: none;
+  width: 100%;
+  margin-right: 50px;
+  color: var(--grey);
+  font-family: "Poppins", sans-serif;
+}
+.hero-input input:focus {
+  outline: none;
+  border: 0;
+  border-radius: 2px;
+}
+.arrow-box {
+  position: absolute;
+  right: 3px;
+  background: var(--primary);
+  color: #fff;
+  padding: 10px;
+  border-radius: 9px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+.input-icon {
+  color: #fff;
+  cursor: pointer;
+}
+.hero-dash {
+  border-radius: 10px;
+  width: 1152px;
+  height: 624px;
+  overflow: hidden;
+  margin: 50px auto 0px auto;
+  box-shadow: 0px 2px 4px 0px #0000001f;
+  transition: all 0.3s ease;
+  animation: float 3s ease-in-out infinite; /* Add animation */
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px); /* Initial position */
+  }
+  50% {
+    transform: translateY(-10px); /* Move up */
+  }
+  100% {
+    transform: translateY(0px); /* Back to initial position */
+  }
+}
+
+.hero-dash:hover {
+  transform: scale(1.02); /* Hover scale effect */
+  transition: all 0.3s ease;
+}
+
+.hero-dash img {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-providers-section {
+  margin-top: 100px;
+}
+.providers-header {
+  font-family: "Archivo", sans-serif;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.providers-text {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--grey);
+  width: 950px;
+  margin: 20px auto 0px auto;
+}
+
+.hero-providers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.provider-card {
+  width: 100px;
+  height: 65px;
+}
+.provider-card img {
+  width: 100%;
+  height: 100%;
+}

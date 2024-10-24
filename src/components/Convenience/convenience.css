@@ -1,0 +1,114 @@
+.features-mainText {
+  font-family: "Archivo", sans-serif;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+  margin-top: 150px;
+}
+
+.features {
+  margin-top: 96px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.multimeter-container,
+.payforme-container,
+.smartrecharge-container {
+  display: flex;
+  cursor: pointer;
+}
+
+.payforme-container {
+  margin-top: 60px;
+}
+
+.smartrecharge-container {
+  margin-top: 60px;
+}
+
+.multimeter-line,
+.payforme-line,
+.refunds-line,
+.smartrecharge-line {
+  width: 4px;
+  height: 118px;
+  border-radius: 10px;
+  transition: all 200ms ease-in-out;
+}
+
+.payforme-line {
+  margin-top: 0px;
+}
+
+.smartrecharge-line {
+  margin-top: 0px;
+}
+
+.multimeter,
+.payforme,
+.smartrecharge {
+  width: 423px;
+  height: 123px;
+  margin-left: 26px;
+  transition: all 200ms ease-in-out;
+}
+
+.multimeter-mainText,
+.payforme-mainText,
+.smartrecharge-mainText {
+  font-family: "Archivo", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.3px;
+  transition: all 200ms ease-in-out;
+}
+
+.multimeter-subText,
+.payforme-subText,
+.smartrecharge-subText {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 140%;
+  letter-spacing: -0.3px;
+  margin-top: 12px;
+  transition: all 200ms ease-in-out;
+}
+
+.payforme-mainText {
+  /* margin-top: 60px; */
+}
+
+.refunds-mainText {
+  margin-top: 0px;
+}
+
+.smartrecharge-mainText {
+  margin-top: 0px;
+}
+
+.features-showing {
+  width: 561px;
+  height: 467px;
+  border-radius: 20px;
+  position: relative;
+  margin-top: 60px;
+  margin-right: -100px;
+}
+.features-showing img {
+  width: 70%;
+  height: 70%;
+}
+
+.smartrecharge-line {
+  height: auto !important;
+}
+
+.smartrecharge {
+  height: auto !important;
+}

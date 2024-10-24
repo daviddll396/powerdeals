@@ -1,0 +1,16 @@
+.faq-header {
+  text-align: center;
+  margin-top: 100px;
+  font-family: "Archivo", sans-serif;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.faq-accordions {
+  margin: 50px auto 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
