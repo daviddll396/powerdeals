@@ -28,7 +28,7 @@ const Faqs = () => {
           header="What happens if my transaction fails?"
           text="If your transaction fails, the system will automatically reverse your funds within a specified period. If the reversal does not occur, please contact customer support."
         />
-        <Accordion
+        {/* <Accordion
           header="Is my payment information secure?"
           text="Absolutely. We use advanced encryption and security protocols to protect your payment information."
         />
@@ -47,7 +47,7 @@ const Faqs = () => {
         <Accordion
           header="What should I do if I encounter an error?"
           text="If you encounter an error, refer to the error message for guidance or contact our 24/7 customer support team for assistance."
-        />
+        /> */}
       </div>
     </div>
   );

@@ -47,3 +47,29 @@
   color: var(--black);
   margin-top: 6px;
 }
+
+@media (max-width: 550px) {
+  .why-header {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 50px;
+  }
+  .flex-top,
+  .flex-mid,
+  .flex-bot {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .why-main {
+    font-size: 17px;
+  }
+  .why-sub {
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-top: 3px;
+  }
+}

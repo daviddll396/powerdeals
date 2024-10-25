@@ -14,3 +14,9 @@
   align-items: center;
   justify-content: center;
 }
+@media (max-width: 550px) {
+  .faq-header {
+    font-size: 22px;
+    margin-top: 50px;
+  }
+}

@@ -9,9 +9,6 @@ function App() {
     return `PDY-${randomNumbers}`;
   };
 
-  const publicKey =
-    "ITXPUB_STAGING_N9OSLGOKR2WT6KNKMRPHI0TNDZF3FEMCFDUO2PFN-6011000252-04GPRVVTV0CPUVD";
-
   useEffect(() => {
     const script = document.createElement("script");
     script.src =
@@ -25,34 +22,20 @@ function App() {
     };
   }, []);
 
-  const checkPaymentStatus = async () => {
-    const paymentId = "ITX662182491729634251752";
-
-    console.log("payin");
-    const url = `https://staging.itexpay.com/api/v1/transaction/charge/status?publickey="${publicKey}"&paymentid=${paymentId}`;
-
-    try {
-      const response = await axios.get(url);
-      console.log("Payment status response:", response.data);
-    } catch (error) {
-      console.error("Error fetching payment status:", error);
-    }
-  };
-
   const paymentRef = generateRef();
 
   const [amount, setAmount] = useState(0);
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
 
   const testPay = () => {
     const Pay = new window.ItexPayNS.ItexPay({
-      api_key:
-        "ITXPUB_STAGING_N9OSLGOKR2WT6KNKMRPHI0TNDZF3FEMCFDUO2PFN-6011000252-04GPRVVTV0CPUVD",
+      api_key: import.meta.env.VITE_ITEX_API_KEY,
       first_name: "David",
       last_name: "Fagbenja",
-      phone_number: "2347064758014",
-      email: "daviddll396@gmail.com",
+      phone_number: phone,
+      email: email,
       amount: amount,
-      // redirecturl: "http://yourredirecturl.com",
       currency: "NGN",
       reference: paymentRef,
       onCompleted: (data) => {
@@ -148,11 +131,21 @@ function App() {
                 <label htmlFor="email">
                   Email Address <span className="required">*</span>
                 </label>
-                <input type="text" name="email" id="email" />
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  onChange={(e) => setEmail(e.target.value)}
+                />
               </div>
               <div className="form-field">
                 <label htmlFor="phoneNumber">Phone Number</label>
-                <input type="text" name="phoneNumber" id="phoneNumber" />
+                <input
+                  type="text"
+                  name="phoneNumber"
+                  id="phoneNumber"
+                  onChange={(e) => setPhone(e.target.value)}
+                />
               </div>
             </div>
             <button type="submit" className="submit-button">

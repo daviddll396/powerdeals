@@ -51,28 +51,29 @@ const Hero = () => {
           </div>
 
           <div className="hero-providers">
-            <div className="provider-card">
+            <div className="provider-card non-mobile">
               <img src="/images/aedc.png" alt="" />
             </div>
             <div className="provider-card">
               <img src="/images/eedc.png" alt="" />
             </div>
-            <div className="provider-card">
+            <div className="provider-card ">
               <img src="/images/ie.png" alt="" />
             </div>
-            <div className="provider-card">
+            <div className="provider-card non-mobile">
               <img src="/images/kedco.png" alt="" />
             </div>
-            <div className="provider-card">
+            <div className="provider-card non-mobile">
               <img src="/images/phedc.png" alt="" />
             </div>
             <div className="provider-card">
               <img src="/images/ekedc.png" alt="" />
             </div>
-            <div className="provider-card">
+            <div className="provider-card non-mobile">
               <img src="/images/ibedc.png" alt="" />
             </div>
           </div>
+          <div className="only-mobile">+ 3 more</div>
         </div>
       </div>
     </div>

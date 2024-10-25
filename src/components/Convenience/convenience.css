@@ -112,3 +112,27 @@
 .smartrecharge {
   height: auto !important;
 }
+
+@media (max-width: 550px) {
+  .features-mainText {
+    margin-top: 50px;
+    font-size: 22px;
+  }
+
+  .multimeter,
+  .payforme,
+  .smartrecharge {
+    width: auto;
+    margin-left: 16px;
+    transition: all 200ms ease-in-out;
+  }
+
+  .features-showing {
+    display: none;
+  }
+  .multimeter-mainText,
+  .payforme-mainText,
+  .smartrecharge-mainText {
+    font-size: 20px;
+  }
+}

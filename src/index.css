@@ -12,6 +12,14 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  -webkit-tap-highlight-color: transparent;
+  tap-highlight-color: transparent;
+}
+body.no-scroll {
+  overflow: hidden;
+}
+
 :root {
   --primary: #dc6c36;
   --secondary: #000;
@@ -27,4 +35,12 @@ a {
 
 .orangetext {
   color: #dc6c36;
+}
+
+@media (max-width: 550px) {
+  .section-container {
+    width: 95vw;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+  }
 }

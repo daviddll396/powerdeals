@@ -49,3 +49,33 @@
   filter: invert(45%) sepia(90%) saturate(746%) hue-rotate(345deg)
     brightness(100%) contrast(97%);
 }
+
+@media (max-width: 550px) {
+  .accordion-header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95vw;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 10px 10px 10px 21px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .accordion-header {
+    font-size: 13px;
+  }
+
+  .accordion-text {
+    font-family: "Poppins", sans-serif;
+    opacity: 0.5;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    width: 90vw;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+  }
+}
