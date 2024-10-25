@@ -1,6 +1,6 @@
 # PowerDeals Redesign Project
 
-This project is an assignment from **Itex** to redesign the [PowerDeals](https://powerdeals.ng) page and implement core features.
+This project is an assignment from **Itex** to redesign the [PowerDeals](https://powerdeals.ng) page and implement their payment api.
 
 ## Features Implemented
 
