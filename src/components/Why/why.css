@@ -71,5 +71,12 @@
     font-size: 12px;
     margin-bottom: 20px;
     margin-top: 3px;
+    width: 100%;
+  }
+  .why-box {
+    width: 100%;
+  }
+  .why-text {
+    width: 100%;
   }
 }
