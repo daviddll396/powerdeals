@@ -9,6 +9,8 @@ function App() {
     return `PDY-${randomNumbers}`;
   };
 
+  const [reference, setReference] = useState("");
+
   useEffect(() => {
     const script = document.createElement("script");
     script.src =
@@ -50,6 +52,11 @@ function App() {
     });
 
     Pay.init();
+  };
+
+  const handleButtonClick = () => {
+    const newRef = generateRef();
+    setReference(newRef);
   };
 
   return (
@@ -148,7 +155,11 @@ function App() {
                 />
               </div>
             </div>
-            <button type="submit" className="submit-button">
+            <button
+              type="submit"
+              className="submit-button"
+              onClick={handleButtonClick}
+            >
               Proceed
             </button>
           </form>
