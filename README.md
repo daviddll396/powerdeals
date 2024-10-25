@@ -1,8 +1,15 @@
-# React + Vite
+# PowerDeals Redesign Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is an assignment from **Itex** to redesign the [PowerDeals](https://powerdeals.ng) page and implement core features.
 
-Currently, two official plugins are available:
+## Features Implemented
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Home Screen**: Redesigned the home screen with a modern, user-friendly interface.
+2. **Buy Electricity Screen**: Built and designed the buy electricity screen to streamline the purchase process.
+3. **Itex Inline Checkout Integration**: Integrated Itex's inline checkout solution on the buy electricity screen to enable smooth and secure transactions.
+
+## Project Overview
+
+The redesign focuses on enhancing the overall user experience and providing a seamless way for consumers to purchase electricity directly from their devices.
+
+---
