@@ -13,4 +13,6 @@ This project is an assignment from **Itex** to redesign the [PowerDeals](https:/
 
 The redesign focuses on enhancing the overall user experience and providing a seamless way for consumers to purchase electricity directly from their devices.
 
+Home screen and Buy electricity screens are responsive for desktop and mobile only.
+
 ---
